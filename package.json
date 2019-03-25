@@ -2,7 +2,7 @@
   "name": "shaneswayneyresume",
   "version": "1.0.0",
   "description": "Shane Swayney's Resume",
-  "main": "resume.html",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "resume": "node node_modules/resume-cli export resume.html -t elegant"

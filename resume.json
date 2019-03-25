@@ -6,7 +6,7 @@
     "email": "shane.swayney@gmail.com",
     "phone": "(805) 300-4907",
     "website": "http://shaneswayney.com",
-    "summary": "",
+    "summary": "Full Stack Developer at Conversant - Current Stack: Oracle SQL, Java, Spring Boot, JS, Typescript, Angular, NgRx, RxJs",
     "location": {
       "address": "2455 Vista Wood Cir #11",
       "postalCode": "CA 91362",
@@ -35,13 +35,13 @@
     "highlights": [
       "Developed external facing Publisher's Portal to manage sites and ad settings.",
       "Advised management on how to best use new implantation standards and tools.",
-      "Tools: BitBucket, Jira, Bamboo, GitKrackin, Intellij, Atom",
       "Designed, implemented and maintained REST services along side Web Sockets.",
       "Built java services and angular front end client library for WebSocket messaging.",
       "Utilized RabbitMQ and Docker to sync web socket queues between load balanced servers.",
       "Utilized Elastic Search for change event logging and built admin dashboard to filter/search changes",
       "Created materialized views for quick loading of daily/weekly calculated data",
-      "Conducted technical interviews"
+      "Conducted technical interviews",
+      "Tools: BitBucket, Jira, Bamboo, GitKrackin, Intellij, Atom"
     ]
   },
     {
@@ -115,9 +115,23 @@
     "keywords": [
       "HTML",
       "CSS",
-      "Javascript"
+      "Javascript",
+      "Typescript",
+      "Angular 7",
+      "AngularJS",
+      "NgRx",
+      "RxJs"
     ]
-  }],
+  },
+    {
+      "name": "BackEnd Development",
+      "level": "Master",
+      "keywords": [
+        "Java", "PHP", "C#",
+        "Spring Boot", ".Net","Laravel",
+        "Oracle","MySql"
+      ]
+    }],
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
@@ -128,9 +142,17 @@
       "Logic",
       "Fruity Loops"
     ]
-  }],
+  },
+    {
+      "name": "Games!",
+      "keywords": [
+        "Consoles",
+        "PC - a long time ago",
+        "Board games"
+      ]
+    }],
   "references": [{
-    "name": "Jane Doe",
+    "name": "Available on demand",
     "reference": "Reference..."
   }]
 }
