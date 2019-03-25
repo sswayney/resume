@@ -1,2 +1,1 @@
-# resume
-Shane Swayney Resume
+# Shane Swayney's Resume

@@ -1,0 +1,27 @@
+{
+  "name": "shaneswayneyresume",
+  "version": "1.0.0",
+  "description": "Shane Swayney's Resume",
+  "main": "resume.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resume": "node node_modules/resume-cli export resume.html -t elegant"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "swayney"
+  ],
+  "author": "Shane Swayney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sswayney/resume/issues"
+  },
+  "homepage": "https://github.com/sswayney/resume#readme",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.12.1",
+    "jsonresume-theme-kendall": "^0.1.19",
+    "resume-cli": "^1.1.2"
+  }
+}

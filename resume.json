@@ -1,0 +1,136 @@
+{
+  "basics": {
+    "name": "Shane Swayney",
+    "label": "Software Engineer",
+    "picture": "https://avatars3.githubusercontent.com/u/10120111?s=400&u=f15147f90cc40c7dd44d69308b62f7651bcf51b3&v=4",
+    "email": "shane.swayney@gmail.com",
+    "phone": "(805) 300-4907",
+    "website": "http://shaneswayney.com",
+    "summary": "",
+    "location": {
+      "address": "2455 Vista Wood Cir #11",
+      "postalCode": "CA 91362",
+      "city": "Thousand Oaks",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [{
+      "network": "Linked In",
+      "username": "shaneswayney",
+      "url": "http://www.linkedin.com/in/shaneswayney"
+    },
+      {
+        "network": "Github",
+        "username": "sswayney",
+        "url": "https://github.com/sswayney"
+      }]
+  },
+  "work": [{
+    "company": "Conversant",
+    "position": "Software Engineer",
+    "website": "https://www.conversantmedia.com",
+    "startDate": "2017-10-15",
+    "endDate": "2019-04-01",
+    "summary": "Responsible for full stack development: Oracle SQL, Java, Spring Boot, JS, Typescript, Angular, NgRx, RxJs",
+    "highlights": [
+      "Developed external facing Publisher's Portal to manage sites and ad settings.",
+      "Advised management on how to best use new implantation standards and tools.",
+      "Tools: BitBucket, Jira, Bamboo, GitKrackin, Intellij, Atom",
+      "Designed, implemented and maintained REST services along side Web Sockets.",
+      "Built java services and angular front end client library for WebSocket messaging.",
+      "Utilized RabbitMQ and Docker to sync web socket queues between load balanced servers.",
+      "Utilized Elastic Search for change event logging and built admin dashboard to filter/search changes",
+      "Created materialized views for quick loading of daily/weekly calculated data",
+      "Conducted technical interviews"
+    ]
+  },
+    {
+      "company": "Microsemi",
+      "position": "Application Developer",
+      "website": "https://www.microsemi.com",
+      "startDate": "2015-08-01",
+      "endDate": "2017-10-01",
+      "summary": "Responsible for full stack development: C#, .Net Core, AngularJS, JS, JQuery",
+      "highlights": [
+        "Responsible for full stack development using C#, .Net Core, Angular, JS, JQuery",
+        "Developed large RESTful services and APIs to meet internal and external business requirements",
+        "Developed customer facing Registration/User Management application back and front end",
+        "Created ASCII based anti-bot web service and frontend JavaScript library",
+        "Rewrote customer facing Knowledge Base backend and front end",
+        "Worked on small two-person team as well as larger teams on various projects",
+        "Redesigned soap/webform applications to use restful Web API and Angular",
+        "Managed multiple new projects while supporting legacy application code",
+        "Utilized Tools such as GitHub, TeamCity and Octopus Deploy"
+      ]
+    },
+    {
+      "company": "Vitesse Semiconductor",
+      "position": "Associate Systems Analyst",
+      "website": "https://www.microsemi.com",
+      "startDate": "2013-08-01",
+      "endDate": "2015-09-01",
+      "summary": "Responsible for full stack development: C#, PL/SQL, .Net Core, AngularJS, JS, JQuery",
+      "highlights": [
+        "Responsible for full stack development of web services and desktop/web front ends utilizing C#, PHP, Laravel, MVC4, JS, JQuery, IIS and Apache",
+        "Developed and Implemented a content management system/virtual table manager for external corporate website",
+        "Designed and Implemented a software IP tracking web application",
+        "Supported sales operations by managing and implementing new features in design win management software",
+        "Lead training sessions to expose application/IT departments to new software solutions",
+        "Attended change review board meetings as project lead to present new project ideas, requirements and priorities",
+        "Developed a highly-normalized object/attribute focused table structure in MySQL for corporate website to have the flexibility needed for current and future dynamic content management",
+        "Wrote Oracle/MySQL functions and stored procedures to support various applications and services",
+        "Created MVC4 front end for users to manage, run and debug PDI jobs",
+        "Updated bar code scanning software to use new bar code scanning API",
+        "Lead project to rewrite many desktop applications as C# MVC4 web applications",
+        "Received two companywide recognition awards for accountability and innovation"
+      ]
+    },
+    {
+      "company": "Tetra Tech EMC",
+      "position": "ASoftware Engineer II",
+      "website": "http://www.tetratech.com/",
+      "startDate": "2013-01-01",
+      "endDate": "2013-08-01",
+      "summary": "Responsible for full stack development: Oracle SQL, PL/SQL, Java, C# .Net MVC, JSP, Struts, JS",
+      "highlights": [
+        "Fixed and Implemented new features in large scale Java enterprise web applications",
+        "Created a dynamically resizable header/footer tile system for JSP pages exported to excel format",
+        "Restored functionality allowing users to copy shared profile items and added validation to prevent future errors",
+        "Fixed and optimized performance of large packaged procedures in Oracle Database 11g using PL/SQL and Toad",
+        "Modified Ant deployment scripts to correctly pre-compile JSP pages to comply with DOD security standards",
+        "Attended weekly C# .NET MVC 4 best practices meetings with fellow developers and leads",
+        "Chosen by lead developers to be part of a two-person project to migrate Java web apps to C# .NET MVC 4",
+        "Lead project to upgrade app container from Tomcat5 to Tomcat6 and apps from Java6 to Java7"
+      ]
+    }],
+  "education": [{
+    "institution": "Baker College",
+    "area": "Computer Science",
+    "studyType": "Bachelor",
+    "endDate": "2013-03-01"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Audio Engineering",
+    "keywords": [
+      "Logic",
+      "Fruity Loops"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}

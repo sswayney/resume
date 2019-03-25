@@ -1,0 +1,505 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Shane Swayney</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Shane Swayney
+					</h1>
+					<h2>
+						Software Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">shane.swayney@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(805) 300-4907</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://shaneswayney.com">http://shaneswayney.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p></p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Linked In
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://www.linkedin.com/in/shaneswayney">shaneswayney</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/sswayney">sswayney</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Conversant</span>
+					<span class="date">
+						2017-10-15 — 2019-04-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.conversantmedia.com">https://www.conversantmedia.com</a>
+				</div>
+				<div class="position">
+					Software Engineer
+				</div>
+				<div class="summary">
+					<p>Responsible for full stack development: Oracle SQL, Java, Spring Boot, JS, Typescript, Angular, NgRx, RxJs</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed external facing Publisher&#x27;s Portal to manage sites and ad settings.</li>
+					<li class="bullet">Advised management on how to best use new implantation standards and tools.</li>
+					<li class="bullet">Tools: BitBucket, Jira, Bamboo, GitKrackin, Intellij, Atom</li>
+					<li class="bullet">Designed, implemented and maintained REST services along side Web Sockets.</li>
+					<li class="bullet">Built java services and angular front end client library for WebSocket messaging.</li>
+					<li class="bullet">Utilized RabbitMQ and Docker to sync web socket queues between load balanced servers.</li>
+					<li class="bullet">Utilized Elastic Search for change event logging and built admin dashboard to filter/search changes</li>
+					<li class="bullet">Created materialized views for quick loading of daily/weekly calculated data</li>
+					<li class="bullet">Conducted technical interviews</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Microsemi</span>
+					<span class="date">
+						2015-08-01 — 2017-10-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.microsemi.com">https://www.microsemi.com</a>
+				</div>
+				<div class="position">
+					Application Developer
+				</div>
+				<div class="summary">
+					<p>Responsible for full stack development: C#, .Net Core, AngularJS, JS, JQuery</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Responsible for full stack development using C#, .Net Core, Angular, JS, JQuery</li>
+					<li class="bullet">Developed large RESTful services and APIs to meet internal and external business requirements</li>
+					<li class="bullet">Developed customer facing Registration/User Management application back and front end</li>
+					<li class="bullet">Created ASCII based anti-bot web service and frontend JavaScript library</li>
+					<li class="bullet">Rewrote customer facing Knowledge Base backend and front end</li>
+					<li class="bullet">Worked on small two-person team as well as larger teams on various projects</li>
+					<li class="bullet">Redesigned soap/webform applications to use restful Web API and Angular</li>
+					<li class="bullet">Managed multiple new projects while supporting legacy application code</li>
+					<li class="bullet">Utilized Tools such as GitHub, TeamCity and Octopus Deploy</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Vitesse Semiconductor</span>
+					<span class="date">
+						2013-08-01 — 2015-09-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.microsemi.com">https://www.microsemi.com</a>
+				</div>
+				<div class="position">
+					Associate Systems Analyst
+				</div>
+				<div class="summary">
+					<p>Responsible for full stack development: C#, PL/SQL, .Net Core, AngularJS, JS, JQuery</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Responsible for full stack development of web services and desktop/web front ends utilizing C#, PHP, Laravel, MVC4, JS, JQuery, IIS and Apache</li>
+					<li class="bullet">Developed and Implemented a content management system/virtual table manager for external corporate website</li>
+					<li class="bullet">Designed and Implemented a software IP tracking web application</li>
+					<li class="bullet">Supported sales operations by managing and implementing new features in design win management software</li>
+					<li class="bullet">Lead training sessions to expose application/IT departments to new software solutions</li>
+					<li class="bullet">Attended change review board meetings as project lead to present new project ideas, requirements and priorities</li>
+					<li class="bullet">Developed a highly-normalized object/attribute focused table structure in MySQL for corporate website to have the flexibility needed for current and future dynamic content management</li>
+					<li class="bullet">Wrote Oracle/MySQL functions and stored procedures to support various applications and services</li>
+					<li class="bullet">Created MVC4 front end for users to manage, run and debug PDI jobs</li>
+					<li class="bullet">Updated bar code scanning software to use new bar code scanning API</li>
+					<li class="bullet">Lead project to rewrite many desktop applications as C# MVC4 web applications</li>
+					<li class="bullet">Received two companywide recognition awards for accountability and innovation</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Tetra Tech EMC</span>
+					<span class="date">
+						2013-01-01 — 2013-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.tetratech.com/">http://www.tetratech.com/</a>
+				</div>
+				<div class="position">
+					ASoftware Engineer II
+				</div>
+				<div class="summary">
+					<p>Responsible for full stack development: Oracle SQL, PL/SQL, Java, C# .Net MVC, JSP, Struts, JS</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Fixed and Implemented new features in large scale Java enterprise web applications</li>
+					<li class="bullet">Created a dynamically resizable header/footer tile system for JSP pages exported to excel format</li>
+					<li class="bullet">Restored functionality allowing users to copy shared profile items and added validation to prevent future errors</li>
+					<li class="bullet">Fixed and optimized performance of large packaged procedures in Oracle Database 11g using PL/SQL and Toad</li>
+					<li class="bullet">Modified Ant deployment scripts to correctly pre-compile JSP pages to comply with DOD security standards</li>
+					<li class="bullet">Attended weekly C# .NET MVC 4 best practices meetings with fellow developers and leads</li>
+					<li class="bullet">Chosen by lead developers to be part of a two-person project to migrate Java web apps to C# .NET MVC 4</li>
+					<li class="bullet">Lead project to upgrade app container from Tomcat5 to Tomcat6 and apps from Java6 to Java7</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Baker College</span>
+					<span class="date">
+						 — 2013-03-01
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Audio Engineering</h4>
+				</div>
+				<ul class="keywords">
+					<li>Logic</li>
+					<li>Fruity Loops</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Reference...</p>
+					<p class="name">
+						<strong>— Jane Doe</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>
