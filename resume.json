@@ -23,7 +23,8 @@
         "network": "Github",
         "username": "sswayney",
         "url": "https://github.com/sswayney"
-      }]
+      }
+    ]
   },
   "work": [{
     "company": "Conversant",
@@ -87,7 +88,7 @@
     },
     {
       "company": "Tetra Tech EMC",
-      "position": "ASoftware Engineer II",
+      "position": "Software Engineer II",
       "website": "http://www.tetratech.com/",
       "startDate": "2013-01-01",
       "endDate": "2013-08-01",
@@ -102,7 +103,8 @@
         "Chosen by lead developers to be part of a two-person project to migrate Java web apps to C# .NET MVC 4",
         "Lead project to upgrade app container from Tomcat5 to Tomcat6 and apps from Java6 to Java7"
       ]
-    }],
+    }
+  ],
   "education": [{
     "institution": "Baker College",
     "area": "Computer Science",
@@ -111,7 +113,7 @@
   }],
   "skills": [{
     "name": "Web Development",
-    "level": "Master",
+    "level": "",
     "keywords": [
       "HTML",
       "CSS",
@@ -125,13 +127,23 @@
   },
     {
       "name": "BackEnd Development",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "Java", "PHP", "C#",
-        "Spring Boot", ".Net","Laravel",
-        "Oracle","MySql"
+        "Spring Boot", ".Net", "Laravel",
+        "Oracle", "MySql", "RabbitMQ"
       ]
-    }],
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "intellij", "Git", "GitKraken",
+        "Docker", "Insomnia", "Postman",
+        "Swagger", "SQL Developer"
+      ]
+    }
+  ],
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
@@ -150,7 +162,8 @@
         "PC - a long time ago",
         "Board games"
       ]
-    }],
+    }
+  ],
   "references": [{
     "name": "Available on demand",
     "reference": "Reference..."

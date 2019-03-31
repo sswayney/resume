@@ -21,7 +21,14 @@
   "homepage": "https://github.com/sswayney/resume#readme",
   "dependencies": {
     "jsonresume-theme-elegant": "^1.12.1",
+    "jsonresume-theme-elite": "^1.1.2",
     "jsonresume-theme-kendall": "^0.1.19",
+    "jsonresume-theme-material": "^1.1.2",
+    "jsonresume-theme-md": "^1.1.1",
+    "jsonresume-theme-moon": "^1.7.22",
+    "jsonresume-theme-rocketspacer": "^1.0.11",
+    "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
     "resume-cli": "^1.1.2"
   }
 }
